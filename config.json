@@ -1,7 +1,6 @@
 {
     "blocklist_urls": [
-        "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
-        "https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts",
-        "https://hblock.molinero.dev/hosts_adblock.txt"
+        "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/multi-onlydomains.txt",
+        "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.medium-onlydomains.txt"
     ]
 }
