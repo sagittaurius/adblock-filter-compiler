@@ -29,7 +29,7 @@ def generate_filter(file_contents):
     for content in file_contents:
         for rule in parse_hosts_file(content):
             domain = rule[2:-1]
-            base_domain = '.'.join(domain.rsplit('.', 2)[-2:])  # Efficient base domain extraction
+            base_domain = '.'.join(domain.rsplit('.', 2)[-3:])  # Efficient base domain extraction
             if rule not in adblock_rules and base_domain not in base_domains:
                 adblock_rules.add(rule)
                 base_domains.add(base_domain)
